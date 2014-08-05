@@ -1,0 +1,52 @@
+{
+  "name": "findhit-emvici",
+  "description": "javascript MVC Framework built on top of findhit-class",
+  "version": "0.0.1",
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "contributors": [
+    {
+      "name": "José Moreira",
+      "email": "jose.moreira@findhit.com"
+    },
+    {
+      "name": "Bruno Casanova",
+      "email": "bruno.casanova@findhit.com"
+    },
+    {
+      "name": "Gabriel Conceição",
+      "email": "gabriel.conceicao@findhit.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findhit/findhit-emvici.git"
+  },
+  "bugs": {
+    "url": "https://github.com/findhit/findhit-emvici/issues"
+  },
+  "dependencies": {
+    "findhit-class": "findhit/findhit-class",
+    "findhit-event-emitter": "findhit/findhit-event-emitter",
+    "findhit-process": "findhit/findhit-process",
+    "findhit-promise": "findhit/findhit-promise",
+    "underscore": "latest"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.3"
+  },
+  "keywords": [
+    "emvici",
+    "MVC",
+    "findhit-class",
+    "modular",
+    "extendible",
+    "nodejs"
+  ],
+  "main": "index",
+  "scripts": {},
+  "engines": {
+    "node": ">=0.8"
+  },
+  "license": "GPL v3"
+}
