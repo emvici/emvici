@@ -27,6 +27,10 @@ Then we have think if there was a way of creating a framework that we won't need
 
 We arranged a way of connecting everything and handling transports between server and client sides, for more information about file's structure please check out our [findhit-emvici-skeleton](/findhit/findhit-emvici-skeleton) repo. (This repo is used by **emvici** on `emvici create [project-name]` command)
 
+## It seems complex, how does it work?
+
+![Connection Diagram](https://raw.githubusercontent.com/findhit/findhit-emvici/master/docs/img/connection-diagram.fw.png)
+
 ## Instalation
 
 ```bash
