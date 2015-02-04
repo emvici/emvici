@@ -1,7 +1,9 @@
-findhit-emvici
+emvici
 =====================
 
 emvici is an open-source javascript MVC framework for developers
+
+[WARNING] Currently emvici is on a Developing stage!
 
 Our goal is to make the web faster and reliable for all persons on earth (and maybe on other planets too).
 
@@ -25,7 +27,7 @@ Some problems might be:
 
 Then we have think if there was a way of creating a framework that we won't need to supply and bind plugins and handle all the heavy lifting, and then was when **emvici** was born.
 
-We arranged a way of connecting everything and handling transports between server and client sides, for more information about file's structure please check out our [findhit-emvici-skeleton](/findhit/findhit-emvici-skeleton) repo. (This repo is used by **emvici** on `emvici create [project-name]` command)
+We arranged a way of connecting everything and handling transports between server and client sides, for more information about file's structure please check out our [emvici-skeleton](https://github.com/emvici/skeleton) repo. (This repo is used by **emvici** on `emvici create [project-name]` command)
 
 ## It seems complex, how does it work?
 
@@ -34,7 +36,7 @@ We arranged a way of connecting everything and handling transports between serve
 ## Instalation
 
 ```bash
-npm install findhit/findhit-emvici -g
+npm install emvici -g
 ```
 
 ## Usage
@@ -46,6 +48,6 @@ cd projectname/
 
 npm install -g
 
-projectname serve
+emvici serve
 
 ```
